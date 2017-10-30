@@ -5,31 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.hlc.examenu1hlc.MainActivity"
-    android:weightSum="1">
+    tools:context="com.hlc.examenu1hlc.AceptaSaludo">
 
+    <TextView
+        android:id="@+id/aceptaSaludoTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/btSaluda"
+        android:id="@+id/aceptoSaludo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.05"
-        android:text="@string/saludame"
-        android:onClick="saludame" />
+        android:text="@string/aceptoSaludo"
+        android:onClick="aceptaSaludo"/>
 
     <Button
-        android:id="@+id/btDndStudias"
+        android:id="@+id/noAceptoSaludo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.05"
-        android:text="@string/dndStudias"
-        android:onClick="dondeStudias"/>
+        android:text="@string/noAceptoSaludo"
+        android:onClick="noAceptaSaludo"/>
 
-    <Button
-        android:id="@+id/btVidFav"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.05"
-        android:text="@string/vidFav"
-        android:onClick="videoFav" />
 </LinearLayout>

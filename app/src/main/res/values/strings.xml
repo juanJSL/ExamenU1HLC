@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">ExamenU1HLC</string>
+    <string name="saludame">Saludame</string>
+    <string name="dndStudias">¿Donde estudias?</string>
+    <string name="vidFav">Selecciona tu video fav</string>
+    <string name="saludaTV">Para poder saludarte escribe tu nombre</string>
+    <string name="saludaET">Tu nombre aqui</string>
+    <string name="txtBtAceptar">Aceptar</string>
+    <string name="aceptoSaludo">Acepto tu saludo</string>
+    <string name="noAceptoSaludo">No acepto tu saludo</string>
+
+
 </resources>
