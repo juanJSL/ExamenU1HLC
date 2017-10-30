@@ -8,7 +8,7 @@
     tools:context="com.hlc.examenu1hlc.MainActivity"
     android:weightSum="1">
 
-
+    <!--Boton que abre una nueva activity para hacer un juego de saludos-->
     <Button
         android:id="@+id/btSaluda"
         android:layout_width="match_parent"
@@ -17,6 +17,7 @@
         android:text="@string/saludame"
         android:onClick="saludame" />
 
+    <!--Boton que abre la aplicacion de google maps a una ubicacion concreta-->
     <Button
         android:id="@+id/btDndStudias"
         android:layout_width="match_parent"
@@ -25,6 +26,7 @@
         android:text="@string/dndStudias"
         android:onClick="dondeStudias"/>
 
+    <!--Boton que abre la aplicacion de youtube-->
     <Button
         android:id="@+id/btVidFav"
         android:layout_width="match_parent"
